@@ -10,6 +10,10 @@ import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { FormsModule } from '@angular/forms';
 import { DirectiveBindingComponent } from './directive-binding/directive-binding.component';
+import { HeaderComponent } from './header/header.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
+import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { DirectiveBindingComponent } from './directive-binding/directive-binding
     WarningAlertComponent,
     SuccessAlertComponent,
     DataBindingComponent,
-    DirectiveBindingComponent
+    DirectiveBindingComponent,
+    HeaderComponent,
+    RecipesComponent,
+    RecipeListComponent,
+    RecipeDetailComponent,
   ],
   imports: [
     BrowserModule,
